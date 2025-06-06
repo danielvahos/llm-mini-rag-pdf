@@ -1,0 +1,29 @@
+# 🔐 Private config file
+.env
+
+# 📁 Heavy local data
+data/
+!data/README.md  # Puedes dejar un README vacío de ejemplo si quieres que la carpeta exista
+
+# 🧠 CACHES PYTHON
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 📓 NOTEBOOKS Y CHECKPOINTS TEMPORALES
+.ipynb_checkpoints/
+
+# ⚙️ Virtual envs
+.venv/
+venv/
+env/
+ENV/
+
+# 💻 Local Config of Vscode
+.vscode/
+
+# 📄 Temporary files or logs
+*.log
+*.tmp
+*.DS_Store
