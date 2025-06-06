@@ -3,7 +3,7 @@
 
 # 📁 Heavy local data
 data/
-!data/README.md  # Puedes dejar un README vacío de ejemplo si quieres que la carpeta exista
+!data/README.md
 
 # 🧠 CACHES PYTHON
 __pycache__/
