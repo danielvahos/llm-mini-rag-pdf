@@ -6,3 +6,6 @@ streamlit
 python-dotenv
 tqdm
 sentence-transformers
+langchain_community
+tiktoken
+sentence-transformers
