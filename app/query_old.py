@@ -1,11 +1,11 @@
 # app/query.py
 
 import os
-from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS
 from langchain.chains import RetrievalQA
 from langchain.chat_models import ChatOpenAI
 from langchain.prompts import PromptTemplate
-from langchain.embeddings import OpenAIEmbeddings, HuggingFaceEmbeddings
+from langchain_community.embeddings import OpenAIEmbeddings, HuggingFaceEmbeddings
 from dotenv import load_dotenv
 
 load_dotenv()
